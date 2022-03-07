@@ -1,0 +1,72 @@
+
+.page {
+width: 80%;
+margin: auto;
+background-color: white;
+}
+
+body {
+background-color: black;
+font-family: Helvetica, Arial, sans-serif;
+}
+
+banner {
+display: block;
+width: 100%;
+}
+
+main {
+background-color: white;
+padding: 1%;
+oveflow: auto;
+}
+
+header {
+margin-bottom: 1%;
+}
+
+nav {
+<-- Set navigation bar for entire page-->
+font-size: 1.5em;
+text-align: center;
+
+background-color: white;
+padding-left: 5px;
+padding-right: 5px;
+}
+
+borders {
+border-top: 1px solid black;
+border-bottom: 1px solod black;
+margin-left: 5px;
+margin-right: 5px;
+padding-top: 5px;
+padding-bottom: 5px;	
+}
+
+nav a:link {
+color: red;
+text-decoration: none;
+}
+
+nav a:visited {
+color: red;
+text-decoration: none;
+}
+
+nav a:active {
+color: red;
+text-decoration: none;
+}
+
+nav a::hover {
+color: white;
+background-color: red;
+text-decoration: none;
+}
+
+nav a:focus {
+color: white;
+background-color: red;
+text-decoration: none;
+}
